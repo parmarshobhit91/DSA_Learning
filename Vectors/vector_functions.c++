@@ -4,8 +4,9 @@ using namespace std;
 
 int main() {
     vector<int> v;
-    // vector<int> v = {1,2,3}
+    // vector<int> v = {1,2,3};
     // vector<int> v(3,5);  where 3 is size and all the values are 5
+    // vector<char> v = {'a' , 'b'};
     v.push_back(10);
     v.push_back(20);
     v.push_back(30);
@@ -23,4 +24,5 @@ int main() {
     }
 
     cout << "Value at 2 : " << v.at(2) << endl;
+    cout << "Capacity of vector : " << v.capacity() << endl;
 }
